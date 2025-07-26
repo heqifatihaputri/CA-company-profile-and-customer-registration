@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Heqi Fatiha Putri - 2116191017 - Sistem Informasi(D)</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.min.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+  <!-- Fonts and icons -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet"> 
+  <!-- Reset CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive  CSS -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+
+  <h1 class="site-heading text-center text-white d-none d-lg-block">
+    <span class="site-heading-upper text-primary mb-3" style="color: #e6a756 !important;">Solusi Tepat Kebutuhan Finansial Anda</span>
+    <img src="img/bca-logo9.png" alt="" style="width: 20%;">
+  </h1>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="index.html">Beranda
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="about.html">Tentang</a>
+          </li>
+          <li class="nav-item active px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="pembukaan_rekening.html">Pembukaan Rekening</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="products.html">Keunggulan</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="store.html">Operasional</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-section about-heading">
+    <div class="container">
+      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/bca3.jpg" alt="">
+      <div class="about-heading-content">
+        <div class="row">
+          <div class="col-xl-9 col-lg-10 mx-auto">
+            <div class="bg-faded rounded p-5">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Pembukaan Rekening Nasabah</span>
+                <span class="section-heading-lower">Bank Cental Asia</span>
+              </h2>
+              <div class="wizard-main">
+                <div id="particles-js"></div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 login-sec">
+                      <div class="login-sec-bg">
+                        <h2 class="text-center">Data Informasi Nasabah</h2>
+                        <form id="example-advanced-form" action="#" style="display: none;">
+                          <h3>Data Diri</h3>
+                          <fieldset class="form-input">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="nama-identitas">Nama Lengkap (sesuai identitas) *</label>
+                                <input id="nama-identitas" name="nama-identitas" type="text" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="nama-lengkap">Nama lengkap (tanpa gelar) *</label>
+                                <input id="nama-lengkap" name="nama-lengkap" type="text" class="form-control required">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="no-ktp">No.KTP/Paspor *</label>
+                                <input id="no-ktp" name="no-ktp" type="text" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="no-npwp">No.NPWP</label>
+                                <input id="no-npwp" name="no-npwp" type="text" class="form-control">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="no-kitas">No.KITAP/KITAS *</label>
+                                <input id="no-kitas" name="no-kitas" type="text" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="no-handphone">No.Handphone *</label>
+                                <input id="no-handphone" name="no-handphone" type="text" class="form-control required">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="email">Alamat Email</label>
+                                <input id="email" name="email" type="text" class="form-control email">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="nama-ibu">Nama Ibu Kandung *</label>
+                                <input id="nama-ibu" name="nama-ibu" type="text" class="form-control required">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="nama-ayah">Nama Ayah Kandung</label>
+                                <input id="nama-ayah" name="nama-ayah" type="text" class="form-control">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="pendidikan">Pendidikan</label>
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="row">
+                                      <div class="col-md-1"><input type="radio" name="pendidikan" value="SMA"></div>
+                                      <div class="col-md-2"><label for="pendidikan">SMA</label></div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-1"><input type="radio" name="pendidikan" value="Akademi/Diploma"></div>
+                                      <div class="col-md-2"><label for="pendidikan">Akademi/Diploma</label></div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="row">
+                                      <div class="col-md-1"><input type="radio" name="pendidikan" value="S1/S2/S3"></div>
+                                      <div class="col-md-2"><label for="pendidikan">S1/S2/S3</label></div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-1"><input type="radio" name="pendidikan" value="Lainnya"></div>
+                                      <div class="col-md-2"><label for="pendidikan">Lainnya</label></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+
+                          <h3>Alamat Domisili</h3>
+                          <fieldset class="form-input">
+                            <label for="alamat">Alamat Domisili *</label>
+                            <div class="row">
+                              <div class="col-md-0"><input type="radio" name="domisili" value="berbeda" class="required"></div>
+                              <div class="col-md-10"><label>Berbeda dengan alamat identitas</label></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-0"><input type="radio" name="domisili" value="sama" class="required"></div>
+                              <div class="col-md-10"><label>Sesuai dengan alamat identitas</label></div>
+                            </div><br>
+
+                            <span>Data alamat jika berbeda dengan alamat identitas:</span><br>
+                            <label for="alamat">Alamat *</label>
+                            <input id="alamat" name="alamat" type="text-area" class="form-control required"><br>
+
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="rt_rw">RT/RW *</label>
+                                <input id="rt_rw" name="rt_rw" type="text" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="kode_pos">Kode Pos *</label>
+                                <input id="kode_pos" name="kode_pos" type="text" class="form-control required">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="kelurahan">Kelurahan *</label>
+                                <input id="kelurahan" name="kelurahan" type="text" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="kecamatan">Kecamatan *</label>
+                                <input id="kecamatan" name="kecamatan" type="text" class="form-control required">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="kota_kabupaten">Kota/Kabupaten *</label>
+                                <input id="kota_kabupaten" name="kota_kabupaten" type="text" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="provinsi">Provinsi *</label>
+                                <input id="provinsi" name="provinsi" type="text" class="form-control required">
+                              </div>
+                            </div>
+                            <label for="no_telepon">No.Telepon *</label>
+                            <input id="no_telepon" name="no_telepon" type="text" class="form-control form-control required">
+                            <!-- <label for="alamat_korespondensi">Alamat Korespondensi</label>
+                            <input id="alamat_korespondensi" name="alamat_korespondensi" type="text" class="form-control"> -->
+                          </fieldset>
+
+                          <h3>Pekerjaan</h3>
+                          <fieldset class="form-input">
+                            <h4>Informasi Pekerjaan dan Keuangan</h4>
+
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="prosesi">Profesi *</label>
+                                <input id="prosesi" name="prosesi" type="text-area" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="jabatan">Jabatan *</label>
+                                <input id="jabatan" name="jabatan" type="text" class="form-control required">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <!-- <div class="col-md-6">
+                                <label for="tujuan">Tujuan Penggunaan Dana *</label>
+                                <input id="tujuan" name="tujuan" type="text" class="form-control required">
+                              </div> -->
+                              <div class="col-md-6">
+                                <label for="nama_persuhaan">Nama Perusahaan *</label>
+                                <input id="nama_persuhaan" name="nama_persuhaan" type="text" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="bentuk_perusahaan">Bentuk Perusahaan *</label>
+                                <select name="bentuk_perusahaan" id="bentuk_perusahaan" class="form-control required">
+                                  <option>--Pilih Bentuk Perusahaan--</option>
+                                  <option value="PT">PT</option>
+                                  <option value="Koperasi">Koperasi</option>
+                                  <option value="CV">CV</option>
+                                  <option value="Lainnya">Lainnya</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="sektor_industri">Sektor Industri *</label>
+                                <input id="sektor_industri" name="sektor_industri" type="text" class="form-control required">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="tgl_mulai_kerja">Mulai Bekerja Sejak *</label>
+                                <input id="tgl_mulai_kerja" name="tgl_mulai_kerja" type="text" class="form-control form-control required">
+                              </div>
+                            </div>
+                            
+                            <label for="tlp_kator">No.Telp Kantor</label>
+                            <input id="tlp_kator" name="tlp_kator" type="text" class="form-control">
+                            
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="sumber_penghasilan">Sumber Penghasilan *</label><br>
+                                <input type="checkbox" id="sum_penghasilan1" name="sumber_penghasilan" value="Bisnis/Usaha" class="required">
+                                <label for="sum_penghasilan1">Bisnis/Usaha</label><br>
+                                <input type="checkbox" id="sum_penghasilan2" name="sumber_penghasilan" value="Simpanan Pribadi" class="required">
+                                <label for="sum_penghasilan2">Simpanan Pribadi</label><br>
+                                <input type="checkbox" id="sum_penghasilan3" name="sumber_penghasilan" value="Investasi" class="required">
+                                <label for="sum_penghasilan4">Investasi</label><br>
+                                <input type="checkbox" id="sum_penghasilan4" name="sumber_penghasilan" value="Komisi" class="required">
+                                <label for="sum_penghasilan4">Komisi</label><br>
+                                <input type="checkbox" id="sum_penghasilan5" name="sumber_penghasilan" value="Lainnya" class="required">
+                                <label for="sum_penghasilan5">Lainnya</label><br>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="sumber_penghasilan_thn">Penghasilan Per-Tahun *</label><br>
+                                <select name="jenis_produk" id="sumber_penghasilan_thn" class="form-control required">
+                                  <option>--Pilih Jumlah Penghasilan--</option>
+                                  <option value="<55 juta(Rp)"><55 juta(Rp)</option>
+                                  <option value="55-<200 juta(Rp)">55-<200 juta(Rp)</option>
+                                  <option value="200-<500 juta(Rp)">200-<500 juta(Rp)</option>
+                                  <option value=">500 juta(Rp)">>500 juta(Rp)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </fieldset>
+
+                          <h3>Jenis Rekening</h3>
+                          <fieldset class="form-input">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="jenis_produk">Jenis Produk *</label>
+                                <select name="jenis_produk" id="jenis_produk" class="form-control required">
+                                  <option>--Pilih Jenis Produk--</option>
+                                  <option value="Konvensional">Konvensional</option>
+                                  <option value="Syariah(B)">Syariah(B)</option>
+                                </select>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="bentuk_perusahaan">Jenis Mata Uang *</label>
+                                <div class="row">
+                                  <div class="col-md-4">
+                                    <div class="row">
+                                      <div class="col-md-1"><input type="radio" name="jenis_mata_uang" value="IDR"></div>
+                                      <div class="col-md-2"><label for="idr">IDR</label></div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="row">
+                                      <div class="col-md-1"><input type="radio" name="jenis_mata_uang" value="USD"></div>
+                                      <div class="col-md-2"><label for="usd">USD</label></div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="row">
+                                      <div class="col-md-1"><input type="radio" name="jenis_mata_uang" value="Lainnya"></div>
+                                      <div class="col-md-2"><label for="mata_uang_lain">Lainnya</label></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div><br>
+
+                            <div class="row">
+                              <div class="col-md-6">
+                                <label for="jenis_rekening">Jenis Rekening *</label>
+                                <select name="jenis_rekening" id="jenis_rekening" class="form-control required">
+                                  <option>--Pilih Jenis Rekening--</option>
+                                  <option value="Deposito">Deposito</option>
+                                  <option value="Giro">Giro</option>
+                                  <option value="Multicurrency">Multicurrency</option>
+                                  <option value="MAKSI">MAKSI</option>
+                                </select>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="status_kepemilikan">Status Kepemilikan Rekening *</label>
+                                <select name="status_kepemilikan" id="status_kepemilikan" class="form-control required">
+                                  <option>--Pilih Status Kepemilikan--</option>
+                                  <option value="Tunggal">Tunggal</option>
+                                  <option value="Gabungan">Gabungan</option>
+                                  <option value="Atas Nama QQ">Atas Nama QQ</option>
+                                </select>
+                              </div>
+                            </div><br><br>
+
+                            <div>
+                              <div class="row">
+                                <div class="col-md-0">
+                                  <input type="checkbox" id="maybank_tabungan" name="maybank_tabungan" value="true">
+                                </div>
+                                <div class="col-md-11">
+                                  <label for="maybank_tabungan" class="font-bold">Pembukaan Rekening Maybank Tabungan</label><br>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <label for="setoran_awal">Nominal Setoran Awal</label>
+                                  <input id="setoran_awal" name="setoran_awal" type="text-area" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="sumber_dana">Sumber Dana</label>
+                                  <select name="sumber_dana" id="sumber_dana" class="form-control required">
+                                    <option>--Pilih Sumber Dana--</option>
+                                    <option value="Deposito">Tunai</option>
+                                    <option value="Giro">Transfer</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div><br>
+
+                            <div>
+                              <div class="row">
+                                <div class="col-md-0">
+                                  <input type="checkbox" id="maybank_tabungan" name="maybank_tabungan" value="true">
+                                </div>
+                                <div class="col-md-11">
+                                  <label for="maybank_tabungan" class="font-bold">Pembukaan Rekening Maybank Giro</label><br>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <label for="pemberi_referensi">Nama Pemberi Referensi(jika ada)</label>
+                                <input id="pemberi_referensi" name="pemberi_referensi" type="text" class="form-control">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <label for="setoran_awal_giro">Nominal Setoran Awal</label>
+                                  <input id="setoran_awal_giro" name="setoran_awal_giro" type="text-area" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="sumber_dana_giro">Sumber Dana</label>
+                                  <select name="sumber_dana_giro" id="sumber_dana_giro" class="form-control required">
+                                    <option>--Pilih Sumber Dana--</option>
+                                    <option value="Deposito">Tunai</option>
+                                    <option value="Giro">Transfer</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+
+                          <h3>Summary</h3>
+                          <fieldset class="form-input">
+                            <h4 class="summary-main-title">Data Diri</h4><br />
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div>
+                                  <span class="summary-title"><b>Nama Lengkap (sesuai identitas) : </b></span>
+                                  <span id="sum-nama-identitas"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Nama lengkap (tanpa gelar) : </b></span>
+                                  <span id="sum-nama-lengkap"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>No.KTP/Paspor : </b></span>
+                                  <span id="sum-no-ktp"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>No.NPWP : </b></span>
+                                  <span id="sum-no-npwp"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>No.KITAP/KITAS : </b></span>
+                                  <span id="sum-no-kitas"></span>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div>
+                                  <span class="summary-title"><b>No.Handphone : </b></span>
+                                  <span id="sum-no-handphone"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Alamat Email : </b></span>
+                                  <span id="sum-email"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Nama Ibu Kandung : </b></span>
+                                  <span id="sum-nama-ibu"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Nama Ayah Kandung : </b></span>
+                                  <span id="sum-nama-ayah"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Pendidikan : </b></span>
+                                  <span id="sum-pendidikan"></span>
+                                </div>
+                              </div>
+                            </div><br />
+
+                            <h4 class="summary-main-title">Alamat Domisili</h4><br />
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div>
+                                  <span class="summary-title"><b>Alamat : </b></span>
+                                  <span id="sum-alamat"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>RT/RW : </b></span>
+                                  <span id="sum-rt_rw"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Kode Pos : </b></span>
+                                  <span id="sum-kode_pos"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Kelurahan : </b></span>
+                                  <span id="sum-kelurahan"></span>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div>
+                                  <span class="summary-title"><b>Kecamatan : </b></span>
+                                  <span id="sum-kecamatan"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Kota/Kabupaten : </b></span>
+                                  <span id="sum-kota_kabupaten"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Provinsi : </b></span>
+                                  <span id="sum-provinsi"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>No.Telepon : </b></span>
+                                  <span id="sum-no_telepon"></span>
+                                </div>
+                              </div>
+                            </div><br />
+
+                            <h4 class="summary-main-title">Pekerjaan</h4><br />
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div>
+                                  <span class="summary-title"><b>Profesi : </b></span>
+                                  <span id="sum-prosesi"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Jabatan : </b></span>
+                                  <span id="sum-jabatan"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Nama Perusahaan : </b></span>
+                                  <span id="sum-nama_persuhaan"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Bentuk Perusahaan : </b></span>
+                                  <span id="sum-bentuk_perusahaan"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Sektor Industri : </b></span>
+                                  <span id="sum-sektor_industri"></span>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div>
+                                  <span class="summary-title"><b>Mulai Bekerja Sejak : </b></span>
+                                  <span id="sum-tgl_mulai_kerja"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>No.Telp Kantor : </b></span>
+                                  <span id="sum-tlp_kator"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Sumber Penghasilan : </b></span>
+                                  <span id="sum-sumber_penghasilan"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Penghasilan Per-Tahun : </b></span>
+                                  <span id="sum-sumber_penghasilan_thn"></span>
+                                </div>
+                              </div>
+                            </div><br />
+
+                            <h4 class="summary-main-title">Jenis Rekening</h4><br />
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div>
+                                  <span class="summary-title"><b>Jenis Produk : </b></span>
+                                  <span id="sum-jenis_produk"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Jenis Rekening : </b></span>
+                                  <span id="sum-jenis_rekening"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Jenis Mata Uang : </b></span>
+                                  <span id="sum-jenis_mata_uang"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Status Kepemilikan Rekening : </b></span>
+                                  <span id="sum-status_kepemilikan"></span>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div>
+                                  <span class="summary-title"><b>Nominal Setoran Awal : </b></span>
+                                  <span id="sum-setoran_awal"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Nama Pemberi Referensi(jika ada) : </b></span>
+                                  <span id="sum-pemberi_referensi"></span>
+                                </div>
+                                <div>
+                                  <span class="summary-title"><b>Sumber Dana : </b></span>
+                                  <span id="sum-sumber_dana_giro"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+
+                          <h3>Finish</h3>
+                          <fieldset class="form-input">
+                            <h4>Terms and Conditions</h4>
+
+                            <input id="acceptTerms-2" name="acceptTerms" type="checkbox" class="required"> <label for="acceptTerms-2">I agree with the Terms and Conditions.</label>
+                          </fieldset>
+                        </form>     
+                      </div>
+                    </div>      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">Copyright &copy; BCA 2021 <br>Design By : Heqi Fatiha Putri</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- jquery latest version -->
+  <script src="js/jquery.min.js"></script>
+  <!-- popper.min.js -->
+  <script src="js/popper.min.js"></script>    
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- jquery.steps js -->
+  <script src='https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js'></script>
+  <script src="js/jquery.steps.js"></script>
+  <!-- particles js -->
+  <script src="js/particles.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
